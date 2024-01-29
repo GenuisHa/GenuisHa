@@ -1,0 +1,8 @@
+prefix=/home/genius/ustb_17th_samrtcar_race/First_race/ustb_17th_smartcar/install
+
+Name: gazebo_pkg
+Description: Description of gazebo_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

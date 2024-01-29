@@ -1,0 +1,8 @@
+prefix=/home/genius/ustb_17th_samrtcar_race/First_race/ustb_17th_smartcar/devel
+
+Name: nexus_4wd_mecanum_gazebo
+Description: Description of nexus_4wd_mecanum_gazebo
+Version: 0.1.0
+Cflags: -I/home/genius/ustb_17th_samrtcar_race/First_race/ustb_17th_smartcar/src/mecanum_sim/nexus_4wd_mecanum_gazebo/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs geometry_msgs nav_msgs tf message_runtime

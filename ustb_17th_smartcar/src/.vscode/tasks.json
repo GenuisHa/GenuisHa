@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "catkin_make",
+			"args": [
+				"--directory",
+				"/home/genius/ustb_17th_samrtcar_race/First_race/ustb_17th_smartcar",
+				"-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+			],
+			"problemMatcher": [
+				"$catkin-gcc"
+			],
+			"group": "build",
+			"label": "catkin_make: build"
+		}
+	]
+}

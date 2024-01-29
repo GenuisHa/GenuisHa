@@ -1,0 +1,2 @@
+gazebo_pkg:global_planner:mecanum_sim/nexus_4wd_mecanum_description:mecanum_sim/nexus_4wd_mecanum_gazebo:ucar_accumtimer:ucar_bringup:ucar_commander:ucar_navigation
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/genius/ustb_17th_samrtcar_race/First_race/ustb_17th_smartcar/devel -DCMAKE_INSTALL_PREFIX=/home/genius/ustb_17th_samrtcar_race/First_race/ustb_17th_smartcar/install -G Unix Makefiles

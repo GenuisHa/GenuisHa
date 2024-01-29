@@ -1,0 +1,6 @@
+image: /home/genius/ustb_17th_samrtcar_race/First_race/ustb_17th_smartcar/src/ucar_navigation/maps.pgm
+resolution: 0.04
+origin: [-0.573977, -5.00475, 0.0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196

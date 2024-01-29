@@ -1,0 +1,6 @@
+# request
+int8 data
+---
+# response
+bool success
+string message

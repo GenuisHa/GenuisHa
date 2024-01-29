@@ -1,0 +1,32 @@
+<launch>
+    <!-- to start up the car -->
+    <!-- however, will not start room detection and voice recognition -->
+    <!-- so that their logs can be separated from navigation nodes -->
+
+	<!-- command line flags -->
+    <!-- not used -->
+	
+    <!-- ###################################### -->
+    <!-- ##       SIMULATION                 ## -->
+    <!-- ###################################### -->
+
+    <include file="$(find gazebo_pkg)/launch/empty_race_track.launch" />
+
+    <!-- ###################################### -->
+    <!-- ##       NAVIGATION STACK           ## -->
+    <!-- ###################################### -->
+
+    <!-- start navigation stack -->
+    <include file="$(find ucar_navigation)/launch/nav.launch" />
+
+    <!-- ###################################### -->
+    <!-- ##       DECISION & LOGIC           ## -->
+    <!-- ###################################### -->
+
+    <include file="$(find ucar_commander)/launch/ucar_commander.launch" />
+
+    <!-- <include file="$(find ucar_accumtimer)/launch/AccumTimer.launch" /> -->  
+    <!-- 启动定时器 -->
+    <!-- not used -->
+
+</launch>
